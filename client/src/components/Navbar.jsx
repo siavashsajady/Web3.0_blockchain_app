@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaMoneyBillAlt } from 'react-icons/fa';
+import { SiEthereum } from 'react-icons/si';
 import { HiMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
 
@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className='w-full flex md:justify-center justify-between items-center p-4'>
       <div className='md:flex-[0.5] flex-initial justify-center items-center text-white'>
         <a className='flex flex-row  items-center '>
-          <FaMoneyBillAlt /> EthApp
+          <SiEthereum /> EthApp
         </a>
       </div>
       <ul className='text-white md:flex hidden list-none flex-row justify-between items-center flex-initial'>
